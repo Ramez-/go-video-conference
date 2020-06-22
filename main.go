@@ -23,7 +23,6 @@ type Sdp struct {
 	Sdp string
 }
 
-// HTTPSDPServer starts a HTTP Server that consumes SDPs
 func main() {
 	file, err := os.OpenFile("info.log", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
