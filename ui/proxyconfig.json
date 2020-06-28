@@ -1,0 +1,9 @@
+{
+    "/webrtc/*": {
+    "target": "http://localhost:8080",
+    "secure": false,
+    "localLever": "debug",
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

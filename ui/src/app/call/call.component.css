@@ -1,0 +1,10 @@
+.layer2 {
+    position: absolute;
+    top: 0;
+}
+
+.container_row {
+    height: 50px;
+    margin-top: 100px;
+    position: relative;
+}
